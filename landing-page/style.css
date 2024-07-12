@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b9cceb;
+    height: 10%;
+}
+
+.logo {
+    float: left;
+    padding: 15px 15px 0px 20px;
+    margin-top: 0;
+    display: flex;
+}
+
+.logo a {
+    margin: 0;
+    font-weight: 700;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-size: 1rem;
+    color: #686a2a;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+    padding: 20px 10px;
+}
+
+.menu ul li a {
+    color: #686a2a;
+    font-family: Roboto;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+main {
+    padding-top: 200px;
+    width: 65%;
+    text-align: left;
+    margin: auto 60px;
+    justify-content: center;
+    height: 82%;
+}
+
+h1 {
+    justify-items: center;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    color: #7e8464;
+}
+
+main p {
+    padding-bottom: 20px;
+    line-height: 1.5em;
+    font-family: "Raleway", sans-serif;
+}
+
+.shop-button {
+    padding: 20px;
+    width: 220px;
+    background-color: #f3dcaa;
+    color: #686a2a;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-align: center;
+    border-style: none;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    display: inline;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #b9cceb;
+    margin: 0;
+    height: 8%;
+}
+
+footer p {
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #686a2a;
+    float: left;
+    padding: 15px 25px;
+}
+
+.follow-us {
+    float: right;
+    padding: 15px 2px;
+}
+
+footer .fa {
+    margin: 10px 0px 0px 0px;
+    float: right;
+    padding: 5px;
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+footer .fa:hover {
+    opacity: 0.7;
+}
+
+footer .fa-instagram {
+    color: #686a2a;
+    padding-right: 40px;
+}
+
+footer .fa-facebook {
+    color: #686a2a;
+}
+
+footer .fa-twitter {
+    color: #686a2a;
+}
